@@ -1,0 +1,8 @@
+source;share/johnny_two/hook/cmake_prefix_path.ps1
+source;share/johnny_two/hook/cmake_prefix_path.dsv
+source;share/johnny_two/hook/cmake_prefix_path.sh
+source;share/johnny_two/local_setup.bash
+source;share/johnny_two/local_setup.dsv
+source;share/johnny_two/local_setup.ps1
+source;share/johnny_two/local_setup.sh
+source;share/johnny_two/local_setup.zsh

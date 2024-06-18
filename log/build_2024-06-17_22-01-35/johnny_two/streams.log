@@ -1,0 +1,58 @@
+[0.047s] Invoking command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jerry/ros2_ws/src/johnny_two -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jerry/ros2_ws/src/johnny_two/install/johnny_two
+[0.413s] -- The C compiler identification is GNU 11.4.0
+[0.797s] -- The CXX compiler identification is GNU 11.4.0
+[0.825s] -- Detecting C compiler ABI info
+[1.225s] -- Detecting C compiler ABI info - done
+[1.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.265s] -- Detecting C compile features
+[1.267s] -- Detecting C compile features - done
+[1.283s] -- Detecting CXX compiler ABI info
+[1.645s] -- Detecting CXX compiler ABI info - done
+[1.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.671s] -- Detecting CXX compile features
+[1.678s] -- Detecting CXX compile features - done
+[1.682s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.308s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.535s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.628s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.920s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.967s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.968s] -- Configured cppcheck include dirs: 
+[2.968s] -- Configured cppcheck exclude dirs and/or files: 
+[2.992s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.992s] -- Configured cpplint exclude dirs and/or files: 
+[2.997s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.004s] -- Added test 'lint_cmake' to check CMake code style
+[3.009s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.032s] -- Added test 'uncrustify' to check C / C++ code style
+[3.033s] -- Configured uncrustify additional arguments: 
+[3.038s] -- Added test 'xmllint' to check XML markup files
+[3.044s] -- Configuring done
+[3.056s] -- Generating done
+[3.060s] -- Build files have been written to: /home/jerry/ros2_ws/src/johnny_two/build/johnny_two
+[3.078s] Invoked command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jerry/ros2_ws/src/johnny_two -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jerry/ros2_ws/src/johnny_two/install/johnny_two
+[3.080s] Invoking command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/ros2_ws/src/johnny_two/build/johnny_two -- -j2 -l2
+[3.244s] Invoked command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/ros2_ws/src/johnny_two/build/johnny_two -- -j2 -l2
+[3.406s] Invoking command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/ros2_ws/src/johnny_two/build/johnny_two
+[3.435s] -- Install configuration: ""
+[3.438s] -- Execute custom install script
+[3.441s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/config/empty.yaml
+[3.473s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/description/robot.urdf.xacro
+[3.503s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/launch/rsp.launch.py
+[3.529s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/worlds/empty.world
+[3.561s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/package_run_dependencies/johnny_two
+[3.599s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/parent_prefix_path/johnny_two
+[3.635s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/ament_prefix_path.sh
+[3.675s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/ament_prefix_path.dsv
+[3.709s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/path.sh
+[3.744s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/path.dsv
+[3.783s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.bash
+[3.821s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.sh
+[3.854s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.zsh
+[3.901s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.dsv
+[3.941s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.dsv
+[3.981s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/packages/johnny_two
+[4.022s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/cmake/johnny_twoConfig.cmake
+[4.069s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/cmake/johnny_twoConfig-version.cmake
+[4.113s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.xml
+[4.153s] Invoked command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/ros2_ws/src/johnny_two/build/johnny_two

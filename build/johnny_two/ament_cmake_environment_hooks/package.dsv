@@ -1,0 +1,4 @@
+source;share/johnny_two/local_setup.bash
+source;share/johnny_two/local_setup.dsv
+source;share/johnny_two/local_setup.sh
+source;share/johnny_two/local_setup.zsh

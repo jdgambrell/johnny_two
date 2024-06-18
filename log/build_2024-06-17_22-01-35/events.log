@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000460] (johnny_two) JobQueued: {'identifier': 'johnny_two', 'dependencies': OrderedDict()}
+[0.000584] (johnny_two) JobStarted: {'identifier': 'johnny_two'}
+[0.036218] (johnny_two) JobProgress: {'identifier': 'johnny_two', 'progress': 'cmake'}
+[0.038118] (johnny_two) Command: {'cmd': ['/usr/bin/cmake', '/home/jerry/ros2_ws/src/johnny_two', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jerry/ros2_ws/src/johnny_two/install/johnny_two'], 'cwd': '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jerry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jerry'), ('OLDPWD', '/home/jerry/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1099'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jerry/ros2_ws/install:/home/jerry/ros2_ws/src/johnny_two/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jerry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jerry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jerry-virtual-machine:@/tmp/.ICE-unix/1075,unix/jerry-virtual-machine:/tmp/.ICE-unix/1075'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9f9d2edb_498e_4a6d_9049_fe9b483f7c08'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4VLRP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jerry/ros2_ws/src/johnny_two/install/my_bot:/home/jerry/ros2_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jerry/ros2_ws/src/johnny_two/install/my_bot:/home/jerry/ros2_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.096919] (-) TimerEvent: {}
+[0.197789] (-) TimerEvent: {}
+[0.299047] (-) TimerEvent: {}
+[0.400024] (-) TimerEvent: {}
+[0.413515] (johnny_two) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500289] (-) TimerEvent: {}
+[0.601932] (-) TimerEvent: {}
+[0.703328] (-) TimerEvent: {}
+[0.797001] (johnny_two) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.803556] (-) TimerEvent: {}
+[0.825392] (johnny_two) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.903858] (-) TimerEvent: {}
+[1.004765] (-) TimerEvent: {}
+[1.105832] (-) TimerEvent: {}
+[1.206953] (-) TimerEvent: {}
+[1.225546] (johnny_two) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.264182] (johnny_two) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.265366] (johnny_two) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.267605] (johnny_two) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.282904] (johnny_two) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.307163] (-) TimerEvent: {}
+[1.408241] (-) TimerEvent: {}
+[1.509414] (-) TimerEvent: {}
+[1.610739] (-) TimerEvent: {}
+[1.645693] (johnny_two) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.668577] (johnny_two) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.671477] (johnny_two) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.678548] (johnny_two) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.681872] (johnny_two) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.710909] (-) TimerEvent: {}
+[1.812340] (-) TimerEvent: {}
+[1.913147] (-) TimerEvent: {}
+[2.014028] (-) TimerEvent: {}
+[2.115011] (-) TimerEvent: {}
+[2.216599] (-) TimerEvent: {}
+[2.306727] (johnny_two) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.323309] (-) TimerEvent: {}
+[2.424183] (-) TimerEvent: {}
+[2.524973] (-) TimerEvent: {}
+[2.535336] (johnny_two) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.625311] (-) TimerEvent: {}
+[2.627078] (johnny_two) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.725585] (-) TimerEvent: {}
+[2.826461] (-) TimerEvent: {}
+[2.919950] (johnny_two) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.926613] (-) TimerEvent: {}
+[2.967351] (johnny_two) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.968152] (johnny_two) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.968391] (johnny_two) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.992053] (johnny_two) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.992539] (johnny_two) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.996997] (johnny_two) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.004382] (johnny_two) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.009039] (johnny_two) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.026798] (-) TimerEvent: {}
+[3.032623] (johnny_two) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.033153] (johnny_two) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.038243] (johnny_two) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.043959] (johnny_two) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.055820] (johnny_two) StdoutLine: {'line': b'-- Generating done\n'}
+[3.060150] (johnny_two) StdoutLine: {'line': b'-- Build files have been written to: /home/jerry/ros2_ws/src/johnny_two/build/johnny_two\n'}
+[3.076143] (johnny_two) CommandEnded: {'returncode': 0}
+[3.079589] (johnny_two) JobProgress: {'identifier': 'johnny_two', 'progress': 'build'}
+[3.079957] (johnny_two) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two', '--', '-j2', '-l2'], 'cwd': '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jerry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jerry'), ('OLDPWD', '/home/jerry/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1099'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jerry/ros2_ws/install:/home/jerry/ros2_ws/src/johnny_two/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jerry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jerry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jerry-virtual-machine:@/tmp/.ICE-unix/1075,unix/jerry-virtual-machine:/tmp/.ICE-unix/1075'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9f9d2edb_498e_4a6d_9049_fe9b483f7c08'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4VLRP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jerry/ros2_ws/src/johnny_two/install/my_bot:/home/jerry/ros2_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jerry/ros2_ws/src/johnny_two/install/my_bot:/home/jerry/ros2_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[3.126973] (-) TimerEvent: {}
+[3.228012] (-) TimerEvent: {}
+[3.241857] (johnny_two) CommandEnded: {'returncode': 0}
+[3.328229] (-) TimerEvent: {}
+[3.371152] (johnny_two) JobProgress: {'identifier': 'johnny_two', 'progress': 'install'}
+[3.404576] (johnny_two) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two'], 'cwd': '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jerry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jerry'), ('OLDPWD', '/home/jerry/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1099'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jerry/ros2_ws/install:/home/jerry/ros2_ws/src/johnny_two/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jerry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jerry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jerry-virtual-machine:@/tmp/.ICE-unix/1075,unix/jerry-virtual-machine:/tmp/.ICE-unix/1075'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9f9d2edb_498e_4a6d_9049_fe9b483f7c08'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4VLRP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jerry/ros2_ws/src/johnny_two/install/my_bot:/home/jerry/ros2_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jerry/ros2_ws/src/johnny_two/install/my_bot:/home/jerry/ros2_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[3.428443] (-) TimerEvent: {}
+[3.432560] (johnny_two) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.436174] (johnny_two) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.439390] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/config/empty.yaml\n'}
+[3.471783] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/description/robot.urdf.xacro\n'}
+[3.501449] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/launch/rsp.launch.py\n'}
+[3.528828] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/worlds/empty.world\n'}
+[3.530252] (-) TimerEvent: {}
+[3.560871] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/package_run_dependencies/johnny_two\n'}
+[3.597628] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/parent_prefix_path/johnny_two\n'}
+[3.630542] (-) TimerEvent: {}
+[3.633625] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/ament_prefix_path.sh\n'}
+[3.672789] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/ament_prefix_path.dsv\n'}
+[3.707806] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/path.sh\n'}
+[3.730890] (-) TimerEvent: {}
+[3.743403] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/path.dsv\n'}
+[3.782657] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.bash\n'}
+[3.818934] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.sh\n'}
+[3.831162] (-) TimerEvent: {}
+[3.852347] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.zsh\n'}
+[3.893446] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.dsv\n'}
+[3.931361] (-) TimerEvent: {}
+[3.939149] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.dsv\n'}
+[3.979855] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/packages/johnny_two\n'}
+[4.019672] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/cmake/johnny_twoConfig.cmake\n'}
+[4.031634] (-) TimerEvent: {}
+[4.067519] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/cmake/johnny_twoConfig-version.cmake\n'}
+[4.111307] (johnny_two) StdoutLine: {'line': b'-- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.xml\n'}
+[4.131914] (-) TimerEvent: {}
+[4.151713] (johnny_two) CommandEnded: {'returncode': 0}
+[4.232261] (-) TimerEvent: {}
+[4.335018] (-) TimerEvent: {}
+[4.361570] (johnny_two) JobEnded: {'identifier': 'johnny_two', 'rc': 0}
+[4.367449] (-) EventReactorShutdown: {}

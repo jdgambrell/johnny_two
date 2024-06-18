@@ -1,0 +1,105 @@
+[0.423s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.424s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a41ea241630>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a41ea2410f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a41ea2410f0>>, mixin_verb=('build',))
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jerry/ros2_ws/src/johnny_two'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.188s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'johnny_two'
+[1.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.258s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jerry/ros2_ws/src/johnny_two/install/my_bot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.258s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jerry/ros2_ws/src/johnny_two/install/my_bot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jerry/ros2_ws/src/johnny_two/install
+[1.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jerry/ros2_ws/install
+[1.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'cmake_args' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'cmake_target' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'cmake_clean_cache' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'cmake_clean_first' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'cmake_force_configure' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'ament_cmake_args' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'catkin_cmake_args' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'johnny_two' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.437s] DEBUG:colcon.colcon_core.verb:Building package 'johnny_two' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two', 'merge_install': False, 'path': '/home/jerry/ros2_ws/src/johnny_two', 'symlink_install': True, 'test_result_base': None}
+[1.438s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/ros2_ws/src/johnny_two' with build type 'ament_cmake'
+[1.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/ros2_ws/src/johnny_two'
+[1.445s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/ros2_ws/src/johnny_two/build/johnny_two -- -j2 -l2
+[1.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/ros2_ws/src/johnny_two/build/johnny_two -- -j2 -l2
+[1.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/ros2_ws/src/johnny_two/build/johnny_two
+[2.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(johnny_two)
+[2.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/ros2_ws/src/johnny_two/build/johnny_two
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two' for CMake module files
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two' for CMake config files
+[2.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('johnny_two', 'cmake_prefix_path')
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/hook/cmake_prefix_path.ps1'
+[2.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/hook/cmake_prefix_path.dsv'
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/hook/cmake_prefix_path.sh'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/bin'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/lib/pkgconfig/johnny_two.pc'
+[2.041s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/lib/python3.10/site-packages'
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/bin'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.ps1'
+[2.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.sh'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.bash'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.zsh'
+[2.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/colcon-core/packages/johnny_two)
+[2.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(johnny_two)
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two' for CMake module files
+[2.196s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two' for CMake config files
+[2.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('johnny_two', 'cmake_prefix_path')
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/hook/cmake_prefix_path.ps1'
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/hook/cmake_prefix_path.dsv'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/hook/cmake_prefix_path.sh'
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/bin'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/lib/pkgconfig/johnny_two.pc'
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/lib/python3.10/site-packages'
+[2.213s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/bin'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.ps1'
+[2.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.dsv'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.sh'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.bash'
+[2.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.zsh'
+[2.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/colcon-core/packages/johnny_two)
+[2.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.235s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.262s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.307s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.308s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/ros2_ws/src/johnny_two/install/local_setup.ps1'
+[2.312s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jerry/ros2_ws/src/johnny_two/install/_local_setup_util_ps1.py'
+[2.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/ros2_ws/src/johnny_two/install/setup.ps1'
+[2.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/ros2_ws/src/johnny_two/install/local_setup.sh'
+[2.326s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jerry/ros2_ws/src/johnny_two/install/_local_setup_util_sh.py'
+[2.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/ros2_ws/src/johnny_two/install/setup.sh'
+[2.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/ros2_ws/src/johnny_two/install/local_setup.bash'
+[2.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/ros2_ws/src/johnny_two/install/setup.bash'
+[2.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/ros2_ws/src/johnny_two/install/local_setup.zsh'
+[2.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/ros2_ws/src/johnny_two/install/setup.zsh'

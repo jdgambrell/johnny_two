@@ -1,0 +1,27 @@
+[0.054s] Invoking command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/ros2_ws/src/johnny_two/build/johnny_two -- -j2 -l2
+[0.265s] Invoked command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/ros2_ws/src/johnny_two/build/johnny_two -- -j2 -l2
+[0.404s] Invoking command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/ros2_ws/src/johnny_two/build/johnny_two
+[0.440s] -- Install configuration: ""
+[0.441s] -- Execute custom install script
+[0.441s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/config/empty.yaml
+[0.441s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/description/inertial_macros.xacro
+[0.442s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/description/robot.urdf.xacro
+[0.447s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/description/robot_core.xacro
+[0.447s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/launch/rsp.launch.py
+[0.448s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/worlds/empty.world
+[0.448s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/package_run_dependencies/johnny_two
+[0.449s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/parent_prefix_path/johnny_two
+[0.450s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/ament_prefix_path.sh
+[0.452s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/ament_prefix_path.dsv
+[0.453s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/path.sh
+[0.456s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/environment/path.dsv
+[0.459s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.bash
+[0.460s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.sh
+[0.461s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.zsh
+[0.463s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/local_setup.dsv
+[0.464s] -- Symlinking: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.dsv
+[0.495s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/ament_index/resource_index/packages/johnny_two
+[0.497s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/cmake/johnny_twoConfig.cmake
+[0.498s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/cmake/johnny_twoConfig-version.cmake
+[0.498s] -- Up-to-date symlink: /home/jerry/ros2_ws/src/johnny_two/install/johnny_two/share/johnny_two/package.xml
+[0.507s] Invoked command in '/home/jerry/ros2_ws/src/johnny_two/build/johnny_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/ros2_ws/src/johnny_two/build/johnny_two
