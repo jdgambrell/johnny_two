@@ -32,15 +32,17 @@ def generate_launch_description():
     
 
     #Commmand substitution that will manually use the robot state publisher info as controller manager does not do this automatically like Gazebo
-    robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
-
+    #robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
+    #Dont need the command substitution, control manager "automatically" gets the robot description from the ros2 topic (/robot_descrition)
+    
     controller_params_file = os.path.join(get_package_share_directory(package_name),'config','my_controllers.yaml')
 
     controller_manager = Node(
         package="controller_manager",
         executable="ros2_control_node",
-        parameters=[{'robot_description': robot_description},
-                        controller_params_file]
+        parameters=[controller_params_file]
+        #parameters=[{'robot_description': robot_description},    #don't need this, above works
+        #                controller_params_file]
     )
 
     #may need to delay controller manager until eveything above has a chamce to start
@@ -79,7 +81,7 @@ def generate_launch_description():
     # Launch them all!
     return LaunchDescription([
         rsp,
-        delayed_controller_manager,
-        delayed_diff_drive_spawner,
-        delayed_joint_broad_spawner
+        delayed_controller_manager
+        #delayed_diff_drive_spawner,
+        #delayed_joint_broad_spawner
     ])
