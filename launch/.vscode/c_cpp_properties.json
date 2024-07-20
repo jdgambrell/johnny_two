@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jerry/ros2_ws/install/serial/include/**",
+        "/home/jerry/ros2_ws/install/rplidar_ros/include/**",
+        "/home/jerry/ros2_ws/install/irobot_create_nodes/include/**",
+        "/home/jerry/ros2_ws/install/irobot_create_ignition_toolbox/include/**",
+        "/home/jerry/ros2_ws/install/irobot_create_gazebo_plugins/include/**",
+        "/home/jerry/ros2_ws/install/irobot_create_toolbox/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/jerry/ros2_ws/src/create3_sim/irobot_create_common/irobot_create_nodes/include/**",
+        "/home/jerry/ros2_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox/include/**",
+        "/home/jerry/ros2_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/include/**",
+        "/home/jerry/ros2_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox/include/**",
+        "/home/jerry/ros2_ws/src/diffdrive_arduino/include/**",
+        "/home/jerry/ros2_ws/src/rplidar_ros2/include/**",
+        "/home/jerry/ros2_ws/src/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

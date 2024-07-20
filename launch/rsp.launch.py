@@ -14,6 +14,9 @@ def generate_launch_description():
 
     # Check if we're told to use sim time
     use_sim_time = LaunchConfiguration('use_sim_time')
+    my_namespace = ''
+    my_namespace = LaunchConfiguration('namespace')
+    
 
     # Process the URDF file
     pkg_path = os.path.join(get_package_share_directory('johnny_two'))
@@ -24,6 +27,7 @@ def generate_launch_description():
     params = {'robot_description': robot_description_config.toxml(), 'use_sim_time': use_sim_time}
     node_robot_state_publisher = Node(
         package='robot_state_publisher',
+        namespace=my_namespace,
         executable='robot_state_publisher',
         output='screen',
         parameters=[params]
